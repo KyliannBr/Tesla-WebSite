@@ -12,6 +12,7 @@
 html {
     font-family: Gotham;
     scroll-behavior: smooth;
+    max-height: 100vh;
 }
 
 body {
@@ -162,12 +163,10 @@ main {
 }
 
 .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
-    z-index: 99;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
 }
